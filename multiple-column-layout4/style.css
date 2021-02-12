@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid #000;
+  margin: 0 0 1em 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+.inner {
+  padding: 0 10px;
+}
+
+.content {
+  column-width: 300px;
+  column-count: 4;
+  column-gap: 25px;
+}
+
+.card {
+  page-break-inside: avoid;
+  break-inside: avoid; /* avoid fragmentation in unusal places */
+}

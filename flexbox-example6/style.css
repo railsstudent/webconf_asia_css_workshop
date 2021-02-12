@@ -1,0 +1,70 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+}
+
+.card {
+  border: 2px solid #490a3d;
+  border-radius: 5px;
+  background-color: #bd1550;
+  color: #fff;
+  margin: 0 10px 0 10px;
+}
+
+.card h2 {
+  background-color: #490a3d;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card {
+  /* can grow > 0 */
+  /* flex-grow: 1;  */
+  /* can shrink > 0*/
+  /* flex-shrink: 1;  */
+  /* initial size of the content */
+  /* flex-basis: 200px;  */
+
+  /* shortcut */
+  /* flex: 1 1 200px; */
+  /* set flex-basis to 0, all the free spaces are up for grab */
+  /* flex: 1 1 0; */
+  /* if flex item has width, auto is the width of the item */
+  /* if flex item has no width, auto is the width of the content of the item */
+  /* flex: 1 1 auto; */
+
+  /* flex: initial = flex: 0 1 auto; */
+  /* flex: 0 1 auto; */
+
+  /* flex: auto = flex: 1 1 auto; */
+  /* flex: auto; */
+  flex: 1;
+}
+
+.card:nth-child(1) {
+  /* flex: 2 1 auto; */
+  flex: 2;
+}
+
+.card:nth-child(2) {
+}
+
+.card:nth-child(3) {
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

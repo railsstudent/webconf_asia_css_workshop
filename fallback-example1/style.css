@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid > div {
+  /* float: left; */
+  /* display: inline-block; */
+  /* display: table-cell; */
+  /* override by feature query if the browser supports grid layout */
+  float: left;
+  width: 33%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid > div {
+  background-color: #694486;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@supports (display: grid) {
+  .grid > div {
+    width: auto;
+  }
+}

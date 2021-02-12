@@ -1,0 +1,53 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "header header"
+    "article sidebar"
+    "cards cards"
+    "footer footer";
+}
+
+header {
+  background-color: rgb(241, 222, 190);
+  grid-area: header;
+}
+
+footer {
+  background-color: rgb(241, 222, 190);
+  grid-area: footer;
+}
+
+aside {
+  background-color: rgb(241, 222, 190);
+  padding: 1em;
+  margin-top: 1em;
+  grid-area: sidebar;
+}
+
+.cards {
+  background-color: rgb(192, 188, 223);
+  padding: 1em;
+  grid-area: cards;
+
+  display: flex;
+}
+
+.card {
+  padding: 1em;
+  border: 5px solid rgb(163, 137, 182);
+  background-color: #fff;
+  margin: 0 5px;
+
+  flex: 1 1 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

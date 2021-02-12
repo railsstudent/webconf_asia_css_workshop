@@ -1,0 +1,31 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-nav {
+  border-bottom: 1px solid #ccc;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-nav li {
+}
+
+.main-nav li:last-child {
+  /* last element absorbs all the space in the left margin */
+  margin: 0 0 0 auto;
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}

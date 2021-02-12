@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 40px;
+  font: 110% Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.col {
+  background-color: rgb(0, 140, 158);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.col.span2 {
+  grid-column: auto / span 2;
+}
+.col.span3 {
+  grid-column: auto / span 3;
+}
+
+.col.rowspan2 {
+  grid-row: auto / span 2;
+}

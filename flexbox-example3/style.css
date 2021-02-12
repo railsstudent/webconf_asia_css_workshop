@@ -1,0 +1,42 @@
+.wrapper {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  height: 90vh;
+  border: 5px solid #ccc;
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+}
+
+.card {
+  border: 2px solid #490a3d;
+  border-radius: 5px;
+  background-color: #bd1550;
+  color: #fff;
+  width: 180px;
+}
+
+.card h2 {
+  background-color: #490a3d;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

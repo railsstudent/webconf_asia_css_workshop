@@ -1,0 +1,48 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+  height: 90vh;
+  border: 5px solid #ccc;
+
+  /* align-items: stretch; */
+  align-items: center;
+}
+
+.card:nth-child(2) {
+  align-self: flex-end;
+}
+
+.card:last-child {
+  align-self: flex-start;
+}
+
+.card {
+  border: 2px solid #490a3d;
+  border-radius: 5px;
+  background-color: #bd1550;
+  color: #fff;
+  margin: 0 10px 0 10px;
+}
+
+.card h2 {
+  background-color: #490a3d;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

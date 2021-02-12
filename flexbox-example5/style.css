@@ -1,0 +1,47 @@
+.wrapper {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+}
+
+.card {
+  border: 2px solid #490a3d;
+  border-radius: 5px;
+  background-color: #bd1550;
+  color: #fff;
+  margin: 0 10px 0 10px;
+}
+
+.card h2 {
+  background-color: #490a3d;
+  margin: 0;
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card:nth-child(1) {
+  order: 2;
+}
+
+.card:nth-child(2) {
+  order: 3;
+}
+
+.card:nth-child(3) {
+  order: 1;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

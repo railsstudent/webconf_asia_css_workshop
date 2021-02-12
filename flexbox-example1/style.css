@@ -1,0 +1,29 @@
+.wrapper {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  /* flex-direction: row-reverse; */
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+}
+
+.main-nav li {
+  text-align: center;
+  background-color: rgb(73, 10, 61);
+}
+
+.main-nav a:link,
+.main-nav a:visited {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}

@@ -1,0 +1,30 @@
+.box {
+  border: 1px solid rgb(74, 84, 179);
+  border-radius: 3px;
+  background-color: rgb(74, 84, 179, 0.6);
+  padding: 10px;
+  flex: 0 1 200px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 800px;
+}
+
+.box2 {
+  border: 5px solid #fb751c;
+  background-color: #f9a54f;
+
+  /* Makes box2 disappear and box5 and box6 become flex items of wrapper */
+  display: contents;
+}
+
+.box6 {
+  flex: 0 1 400px;
+}
+
+.box3 {
+  flex: 1;
+}

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 40px;
+  font: 110% Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  /* grid-template-columns: min-content min-content min-content; */
+  /* grid-template-columns: max-content max-content max-content; */
+  grid-template-columns: fit-content(200px) fit-content(200px) max-content;
+  grid-gap: 20px;
+}
+
+.col {
+  background-color: rgb(0, 140, 158);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}

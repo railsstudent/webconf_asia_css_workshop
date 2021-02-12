@@ -1,0 +1,2 @@
+Main axis    // left to right
+Cross axis  // top to bottom
